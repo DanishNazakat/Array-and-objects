@@ -1,41 +1,6 @@
 
 
 
-let plains = [
-    {
-        pack: [
-            {
-                name: "Basic",
-                monthly: 3.99,
-                diskSpace: "100GB",
-                dataTransfer: "1000 GB/Mo",
-                sitePages: 10,
-            },
-            {
-                name: "Standerd"
-            }
-        ]
-    },
-    {
-        name: "Professional",
-        monthly: 5.99,
-        diskSpace: "500GB",
-        dataTransfer: "5000 GB/Mo",
-        sitePages: 50
-    },
-    {
-        name: "ultimate",
-        monthly: 9.99,
-        diskSpace: "2000GB",
-        dataTransfer: "20000 GB/Mo",
-        sitePages: 500
-    }
-]
-
-console.log(plains[1])
-console.log(plains[0].pack[0].name);
-
-
 
 
 
@@ -81,7 +46,6 @@ let dewanGroup = [
                     company2: "Dewan Mushtaq Textile Mills Ltd.",
                     company3: "Dewan Farooque Spinning Mills Ltd.",
                     company4: "Dewan Salman Fibre Ltd"
-
                 }
 
             }
@@ -89,4 +53,6 @@ let dewanGroup = [
     }
 ]
 
+console.log(dewanGroup[0].Companyies[0])
+console.log(dewanGroup[0].Companyies[0].brands[0])
 console.log(dewanGroup[0].Companyies[0].brands[0].brandName === "BMW")
