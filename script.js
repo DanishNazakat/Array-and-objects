@@ -53,6 +53,7 @@ let dewanGroup = [
     }
 ]
 
-console.log(dewanGroup[0].Companyies[0])
-console.log(dewanGroup[0].Companyies[0].brands[0])
-console.log(dewanGroup[0].Companyies[0].brands[0].brandName === "BMW")
+console.log(dewanGroup[0].Companyies[0]);
+console.log(dewanGroup[0].Companyies[0].brands[0]);
+console.log(dewanGroup[0].Companyies[0].brands[0].brandName === "BMW");
+console.log(dewanGroup[0].Companyies[0].brands[0].brandName)
